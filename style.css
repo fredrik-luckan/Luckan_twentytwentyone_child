@@ -82,6 +82,15 @@ Updated: 2021-01-12 10:49:31
 
 .custom-logo{
 	fill: var(--header--color-text);
+	
+}
+.archive h1 span,
+.archive .entry-categories-inner,
+.archive figcaption {
+    display: none;
+}
+.archive .archive-subtitle {
+    max-width: 80vw;
 }
 
 /*
