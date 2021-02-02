@@ -84,13 +84,9 @@ Updated: 2021-01-12 10:49:31
 	fill: var(--header--color-text);
 	
 }
-.archive h1 span,
-.archive .entry-categories-inner,
-.archive figcaption {
-    display: none;
-}
-.archive .archive-subtitle {
-    max-width: 80vw;
+.page-header {
+    border-bottom: none;
+    padding-bottom: calc(2 * var(--global--spacing-vertical));
 }
 
 /*
