@@ -72,3 +72,4 @@ add_shortcode ('year', 'year_shortcode');
         return $title;    
     });
 
+add_image_size( 'homepage-thumb size', 768, 497 );
