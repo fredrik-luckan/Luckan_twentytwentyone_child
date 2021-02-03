@@ -73,5 +73,5 @@ add_shortcode ('year', 'year_shortcode');
     });
 
 add_image_size( 'homepage-thumb size', 768, 497 );
-add_image_size( 'post-thumbnail size', 622, 280 );
+add_image_size( 'post-thumbnail', 622, 280 );
 
