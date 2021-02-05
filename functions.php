@@ -75,3 +75,7 @@ add_shortcode ('year', 'year_shortcode');
 add_image_size( 'homepage-thumb size', 768, 497 );
 add_image_size( 'post-thumbnail', 622, 280 );
 
+function my_cookie_banner_message( $message ) {
+    return 'Vi använder cookies på vår webbplats. <a href="/cookies">Läs mer</a>!';
+}
+add_filter( 'toolbelt_cookie_message', 'my_cookie_banner_message' );
