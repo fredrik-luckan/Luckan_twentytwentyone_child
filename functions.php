@@ -79,3 +79,12 @@ function my_cookie_banner_message( $message ) {
     return 'Vi använder cookies på vår webbplats. <a href="/cookies">Läs mer</a>!';
 }
 add_filter( 'toolbelt_cookie_message', 'my_cookie_banner_message' );
+
+function my_cookie_button_text( $text ) {
+    $text['accept'] = 'Yes please';
+    $text['decline'] = 'Nope';
+    $text['close'] = 'Close';
+    return $text;
+}
+add_filter( 'toolbelt_cookie_button_text', 'my_cookie_button_text' );
+
