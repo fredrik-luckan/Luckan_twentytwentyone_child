@@ -65,6 +65,9 @@ Updated: 2021-01-12 10:49:31
 	
 	/* Font Family */
 	--branding--title--text-transform: capitalize;
+	
+	/* Footer Family */
+	--footer--font-size: 1.25rem;
 
 }
 
