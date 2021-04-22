@@ -108,3 +108,8 @@ Updated: 2021-01-12 10:49:31
 divider {
 	border-bottom: 3px solid var(--separator--border-color);
 }
+
+dividerbg {
+	background-color: var(--header--color-background);
+}
+
