@@ -105,3 +105,6 @@ Updated: 2021-01-12 10:49:31
     font-size: var(--heading--font-size-base);
 }
 
+divider {
+	border-bottom: 3px solid var(--separator--border-color);
+}
