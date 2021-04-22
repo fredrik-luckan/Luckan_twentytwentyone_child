@@ -105,11 +105,11 @@ Updated: 2021-01-12 10:49:31
     font-size: var(--heading--font-size-base);
 }
 
-divider {
+.divider {
 	border-bottom: 3px solid var(--separator--border-color);
 }
 
-dividerbg {
+.dividerbg {
 	background-color: var(--header--color-background);
 }
 
