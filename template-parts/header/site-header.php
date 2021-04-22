@@ -19,3 +19,5 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
 
 </header><!-- #masthead -->
+
+<hr class="divider">
