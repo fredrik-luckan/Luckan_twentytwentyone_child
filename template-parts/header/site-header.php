@@ -21,4 +21,6 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 
 </header><!-- #masthead -->
 
+<div class="alignwide">
 <hr class="divider alignwide">
+</div>
