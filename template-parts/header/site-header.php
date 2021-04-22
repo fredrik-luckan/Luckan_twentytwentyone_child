@@ -18,9 +18,6 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 	<?php get_template_part( 'template-parts/header/site-branding' ); ?>
 	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
 
-
 </header><!-- #masthead -->
 
-<div class="alignwide dividerbg">
-<hr class="divider alignwide">
-</div>
+
