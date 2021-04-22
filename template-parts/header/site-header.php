@@ -20,4 +20,4 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 
 </header><!-- #masthead -->
 
-<hr class="divider">
+<hr class="divider alignwide ">
