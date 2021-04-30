@@ -113,3 +113,7 @@ Updated: 2021-01-12 10:49:31
 	background-color: var(--header--color-background);
 }
 
+
+.site-main > * {
+	margin-bottom: calc(var(--global--spacing-vertical)*1) ;
+}
