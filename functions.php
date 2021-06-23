@@ -72,8 +72,23 @@ add_shortcode ('year', 'year_shortcode');
         return $title;    
     });
 
-add_image_size( 'homepage-thumb size', 768, 497 );
-add_image_size( 'post-thumbnail', 622, 280 );
+// register custom post size
+
+add_theme_support( 'post-thumbnails' );
+
+add_image_size( 'hero-picture', 1250, 808, true );
+add_image_size( 'medium-thumbnail', 403, 182, true ); 
+
+
+// Register the three useful image sizes for use in Add Media modal
+add_filter( 'image_size_names_choose', 'wpshout_custom_sizes' );
+function wpshout_custom_sizes( $sizes ) {
+    return array_merge( $sizes, array(
+        'hero-picture' => __( 'Hero Picture' ),
+        'medium-thumbnail' => __( 'Medium Thumbnail' ),
+    ) );
+}
+
 
 function my_cookie_banner_message( $message ) {
     return 'Vi använder cookies på vår webbplats. <a href="/cookies">Läs mer</a>!';
