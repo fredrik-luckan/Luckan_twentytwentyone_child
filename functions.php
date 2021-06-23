@@ -78,6 +78,7 @@ add_theme_support( 'post-thumbnails' );
 
 add_image_size( 'hero-picture', 1250, 808, true );
 add_image_size( 'medium-thumbnail', 403, 182, true ); 
+add_image_size( 'contact-list', 200, 200, true ); 
 
 
 // Register the three useful image sizes for use in Add Media modal
@@ -86,6 +87,7 @@ function wpshout_custom_sizes( $sizes ) {
     return array_merge( $sizes, array(
         'hero-picture' => __( 'Hero Picture' ),
         'medium-thumbnail' => __( 'Medium Thumbnail' ),
+        'contact-list' => __( 'Contact List' ),
     ) );
 }
 
